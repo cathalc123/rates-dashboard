@@ -5,7 +5,7 @@ import plotly.express as px
 from scipy.stats import zscore
 from tvDatafeed import TvDatafeedLive
 
-tvl = TvDatafeedLive("cathalcosgrave1", "JOEmoran1912!")
+tvl = TvDatafeedLive()
 
 st.set_page_config("Macro Dashboard", layout = "wide")
 st.title("Rates Dashboard")
